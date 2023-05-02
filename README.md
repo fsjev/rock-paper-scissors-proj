@@ -1,1 +1,1 @@
-# rock-paper-scissors-proj
+# This repository includes files for the Rock Paper Scissors from The Odin Project.
