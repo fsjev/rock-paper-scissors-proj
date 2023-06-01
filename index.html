@@ -6,18 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>
+        Rock, Paper, Scissors
+    </h1>
+    <button class="restart">Restart</button>
     <div class="game">
-        <div class="display">
-
+        <div class="display-container">
+            <div class="display">
+                <div class="resultText">
+                    First to win 5 rounds, Wins!
+                </div>
+                <div class="lowerdisplay">
+                    <div class="compText">
+                        Computer:
+                    </div>
+                    <div class="playerText">
+                        Player 1:
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="options">
-            <button >Rock</button>
-            <button >Paper</button>
-            <button >Scissors</button>
+        <div class="score-container">
+            <div class="score1">0</div>
+            <div class="score2">0</div>
+        </div>
+        <div class="button-container">
+            <div class="options">
+                <div class="circle"><button class="rock button">Rock</button></div>
+                <div class="circle"><button class="paper button">Paper</button></div>
+                <div class="circle"><button class="scissors button">Scissors</button></div>
+            </div>
         </div>
     </div>
+    <footer>
+        <div class="container">created by: <span>Jevaughn Vickers</span></div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
